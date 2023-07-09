@@ -1,3 +1,9 @@
-export const HomePage = () => {
-    return <div>Welcome to my website!</div>;
+import { Header } from "../components/Header";
+
+const HomePage = () => {
+    return (
+        <Header />
+    ) 
 }
+
+export default HomePage;
