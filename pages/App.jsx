@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardBody, CardFooter, Textarea, Text, Box } from '@chakra-ui/react'
+import { Card, CardHeader, Textarea, Text, Box } from '@chakra-ui/react'
 
 
 const App = () => {
