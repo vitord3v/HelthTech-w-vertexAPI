@@ -5,8 +5,8 @@ export const Header = () => {
     return (
     <Flex as="header" align="center" p={4} maxW='1120px' justifyContent='space-between' margin='auto'>
       <Box display='flex' alignItems='center' justifyContent='center' gap='3' >
-        <Image src='/healthTechlogo.png' borderRadius='full' />
-        <Text fontSize="xl" fontWeight="bold">HelthTech w/ AI Vertex</Text>
+        <Image src='/healthtechLogo.png' borderRadius='full' h={50} w={50} marginBottom='1' />
+        <Text fontSize="xl" fontWeight="bold">HealthTech w/ AI Vertex</Text>
       </Box>
       <Box>
         <Tabs variant='soft-rounded' colorScheme='green'>
